@@ -222,6 +222,7 @@ public class String1
      * conCat("abc", "") → "abc"
      */
     public String conCat(String a, String b) {
+        //This will fail is b is an empty string
         if (a.substring(a.length()-1).equals(b.substring(0,1))){
             return a.substring(0,a.length()-1) + b;
             
@@ -278,9 +279,15 @@ public class String1
         str = str.substring(0, str.length() - 1);
     }
     return str;
-}
+    }
 
-    } 
+    //This function was removed for some reason?
+    public String deFront(String s){
+        return "";
+    }
+
+    
+} 
 
 //outputs
 /*
