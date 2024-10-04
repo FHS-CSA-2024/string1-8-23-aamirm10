@@ -283,7 +283,7 @@ public class String1
     } 
 
 //outputs
-
+/*
 Hello Bob!
 HiByeByeHi
 <i>Yay</i>
@@ -300,3 +300,4 @@ true
 abcat
 loHi
 Hi
+*/
